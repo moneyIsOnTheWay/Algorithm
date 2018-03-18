@@ -26,9 +26,7 @@ public class BinSearch {
                 return mid;
             }else if(array[mid] > value){
                 end = mid - 1;
-            }else{
-                start = mid + 1;
-            }
+            }else start = mid + 1;
         }
         return -1;
     }

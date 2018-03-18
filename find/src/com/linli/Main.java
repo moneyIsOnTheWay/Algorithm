@@ -10,6 +10,9 @@ public class Main {
         BinSearch binSearch = new BinSearch();
         System.out.println(binSearch.find(order_array,44));
 
+        InsertionSearch insertionSearch = new InsertionSearch();
+        System.out.println(insertionSearch.find(order_array,33));
+
         SequenceSearch sequenceSearch = new SequenceSearch();
         System.out.println(sequenceSearch.find(array,2));
     }

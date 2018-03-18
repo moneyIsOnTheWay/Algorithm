@@ -7,6 +7,8 @@ public class Main {
     public static void main(String[] args) {
         BubbleSort bubbleSort = new BubbleSort();
         bubbleSort.sort(array);
+        SelectionSort selectionSort = new SelectionSort();
+        selectionSort.sort(array);
         for (int value: array) {
             System.out.println(value);
         }
